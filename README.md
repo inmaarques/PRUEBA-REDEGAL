@@ -21,7 +21,7 @@ Instalación numpy
 
 ## Documentation
 
-Contamos con dos tablas, la primera a la que llamamos "trip-taxi" incluye Los registros de viaje de taxi amarillo incluyen campos que capturan las fechas/horas de recogida y entrega, lugares de recogida y entrega, distancias de viaje, tarifas detalladas, tipos de tarifas, tipos de pago y recuentos de pasajeros informados por el conductor.
+Contamos con dos tablas, la primera a la que llamamos "trip-taxi" incluye los registros de viaje de taxi amarillo incluyendo campos que capturan las fechas/horas de recogida y entrega, lugares de recogida y entrega, distancias de viaje, tarifas detalladas, tipos de tarifas, tipos de pago y recuentos de pasajeros informados por el conductor.
 La segunda, llamada "taxi_zone" es una tabla de búsqueda por zonas mediante un identificador ID, que nos indica tanto el distrito como la zona.
 - Una vez leídos los archivos csv mediante el acceso a su url, los convertimos en DataFrame para facilitar su limpieza y tratamiento. 
 - Estudiamos las columnas y los tipos de datos que contienen en ambas tablas
@@ -37,12 +37,11 @@ La segunda, llamada "taxi_zone" es una tabla de búsqueda por zonas mediante un 
 - Eliminamos la columna "DOLocationID" para que el DataFrame se ajuste a lo solicitado.
 
 
-
 ## Screenshots
 
 Ejemplo de resultado
 
 <img width="342" alt="image" src="https://user-images.githubusercontent.com/93014385/149304525-b6408311-6051-48fe-ba23-efa81ff72700.png">
 
-
+- Como podemos ver en la imagen, el destino que más viajes tiene es "desconocido". Esto es así porque el registro 256 de localizacion de la tabla "taxi_zone" es desconocido. Como no tenemos información a cerca de si se trata de un registro correcto, decidimos dejarlo. 
 
