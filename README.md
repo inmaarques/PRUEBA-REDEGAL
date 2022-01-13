@@ -45,5 +45,7 @@ La segunda, llamada "taxi_zone" es una tabla de búsqueda por zonas mediante un 
 
 Ejemplo de resultado
 
+<img width="342" alt="image" src="https://user-images.githubusercontent.com/93014385/149304525-b6408311-6051-48fe-ba23-efa81ff72700.png">
+
 
 
