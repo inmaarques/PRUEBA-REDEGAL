@@ -9,19 +9,16 @@ Hemos desarrollado esta aplicación con python 3.9, así como con las librerías
 
 Instalación python
 
-```bash
   https://www.python.org/downloads/
-```
+
 Instalación pandas
 
-```bash
   https://pandas.pydata.org/docs/getting_started/install.html
-```
+
 Instalación numpy
 
-```bash
   https://numpy.org/install/
-```
+
 ## Documentation
 
 Contamos con dos tablas, la primera a la que llamamos "trip-taxi" incluye Los registros de viaje de taxi amarillo incluyen campos que capturan las fechas/horas de recogida y entrega, lugares de recogida y entrega, distancias de viaje, tarifas detalladas, tipos de tarifas, tipos de pago y recuentos de pasajeros informados por el conductor.
